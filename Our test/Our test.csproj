@@ -70,6 +70,7 @@
     <Content Include="Ayman\login.aspx" />
     <Content Include="Ayman\main.aspx" />
     <Content Include="Bilal\Home_Page.aspx" />
+    <Content Include="omar\About Us.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +95,13 @@
     <Compile Include="Bilal\Home_Page.aspx.designer.cs">
       <DependentUpon>Home_Page.aspx</DependentUpon>
     </Compile>
+    <Compile Include="omar\About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="omar\About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -106,10 +114,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ayman\" />
-    <Folder Include="bilal\" />
     <Folder Include="nada\" />
-    <Folder Include="omar\" />
     <Folder Include="saja\" />
   </ItemGroup>
   <PropertyGroup>

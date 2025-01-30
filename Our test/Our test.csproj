@@ -70,7 +70,9 @@
     <Content Include="Ayman\login.aspx" />
     <Content Include="Ayman\main.aspx" />
     <Content Include="Bilal\Home_Page.aspx" />
+    <Content Include="Nada\nada.aspx" />
     <Content Include="omar\About Us.aspx" />
+    <Content Include="Saja\saja.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +97,13 @@
     <Compile Include="Bilal\Home_Page.aspx.designer.cs">
       <DependentUpon>Home_Page.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Nada\nada.aspx.cs">
+      <DependentUpon>nada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nada\nada.aspx.designer.cs">
+      <DependentUpon>nada.aspx</DependentUpon>
+    </Compile>
     <Compile Include="omar\About Us.aspx.cs">
       <DependentUpon>About Us.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -103,6 +112,13 @@
       <DependentUpon>About Us.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saja\saja.aspx.cs">
+      <DependentUpon>saja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Saja\saja.aspx.designer.cs">
+      <DependentUpon>saja.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -113,10 +129,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="nada\" />
-    <Folder Include="saja\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
